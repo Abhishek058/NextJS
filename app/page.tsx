@@ -1,6 +1,10 @@
 import Link from "next/link";
+import { title } from "process";
 import React from "react";
 
+export const metadata = {
+  title: "Home",
+};
 export default function Home() {
   return (
     <>
